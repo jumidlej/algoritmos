@@ -29,6 +29,7 @@ Relacionamento lógico entre os tipos de dados
 * Lista Estática
     - Acesso direto aos elementos e sequencial na memória
     - Definição de um tamanho inicial (alocação de memória em tempo de compilação)
+    - Inserção e remoção exigem deslocamento dos outros elementos
 * Lista Dinâmica Encadeada
     - Acesso indireto aos elementos e podem estar em diferentes locais da memória
     - Alocação de memória em tempo de execução
@@ -45,3 +46,5 @@ Relacionamento lógico entre os tipos de dados
     - *var: acessa o conteúdo
     - var: acessa o endereço armazenado em var
     - &var: acessa o endereço de var
+* malloc
+O endereço devolvido por malloc é do tipo genérico void *. O programador armazena esse endereço num ponteiro de tipo apropriado.
