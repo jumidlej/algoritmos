@@ -16,4 +16,4 @@ lista* remove_final();
 
 lista* remove_elemento();
 
-void deleta_lista();
+void libera_lista();
